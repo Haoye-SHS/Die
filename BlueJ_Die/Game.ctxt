@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Game
+comment0.text=\r\n\ Representing\ games\ between\ two\ imaginary\ players\ of\ two\ scenarios\r\n\ Counting\ how\ many\ rolls\ it\ will\ take\ to\ get\ a\ desired\ number\ from\ either\ a\ dice\ roll\ or\ a\ weighted\ dice\ roll\r\n\r\n\ @author\ Haoye\r\n\ @version\ 1573514106\r\n
+comment1.params=
+comment1.target=void\ playGame()
+comment1.text=\r\n\ no\ parameter\ method\ to\ to\ call\ to\ the\ method\ that\ generate\ a\ score\ for\ two\ imaginary\ players\ and\ compares\ their\ score\ and\ states\ who\ wins\r\n
+comment2.params=
+comment2.target=void\ playUnfairGame()
+comment2.text=\r\n\ no\ parameter\ method\ to\ call\ to\ the\ method\ that\ generate\ a\ score\ for\ two\ imaginary\ players\ and\ compares\ their\ score,\r\n\ however,\ if\ the\ score\ of\ player\ 2\ is\ higher\ than\ player\ 1,\ the\ method\ will\ rerun\ until\ player\ 1\ has\ a\ higher\ score\r\n\ score\ of\ each\ player\ is\ not\ printed\ to\ keep\ the\ truth\ away\ from\ player\ 2\r\n
+comment3.params=
+comment3.target=int\ rollTwoDice()
+comment3.text=\r\n\ no\ parameter\ method\ to\ actually\ generate\ a\ score,\ made\ up\ of\ the\ sum\ of\ two\ dice\ rolls\r\n\ @return\ the\ score,\ or\ the\ sum\ of\ two\ dice\ rolls\r\n
+comment4.params=desiredNum
+comment4.target=int\ counter(int)
+comment4.text=\r\n\ a\ method\ taking\ a\ parameter\ then\ roll\ and\ count\ how\ many\ rolls\ it\ took\ to\ get\ to\ the\ input\ desired\ number\r\n\ @param\ desiredNum\ is\ the\ desired\ number\ from\ the\ rolls\r\n\ @return\ how\ many\ rolls\ it\ took\ to\ get\ the\ desired\ number\r\n
+comment5.params=desiredNum
+comment5.target=int\ weightedCounter(int)
+comment5.text=\r\n\ a\ method\ taking\ a\ parameter\ then\ roll\ the\ weighted\ dice\ and\ count\ how\ many\ rolls\ it\ took\ to\ get\ to\ the\ input\ desired\ number\r\n\ @param\ desiredNum\ is\ the\ desired\ number\ from\ the\ rolls\r\n\ @return\ how\ many\ rolls\ it\ took\ to\ get\ the\ desired\ number\r\n
+numComments=6

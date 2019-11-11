@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=WeightedDie
+comment0.text=\r\n\ Represents\ a\ weighted\ dice\ which\ possess\ an\ even\ face\ value\ twice\ as\ likely\ as\ possessing\ an\ odd\ face\ value\r\n\r\n\ @author\ Haoye\r\n\ @version\ 1573514106\r\n
+comment1.params=
+comment1.target=WeightedDie()
+comment1.text=\r\n\ no\ parameter\ constructor\ of\ a\ weighted\ dice\ instance,\ and\ assigns\ a\ random\ value\ to\ the\ instance\r\n
+comment2.params=
+comment2.target=int\ getValue()
+comment2.text=\r\n\ no\ parameter\ accessor\ method\ to\ return\ the\ current\ face\ value\ of\ the\ weighted\ dice\ object\r\n\ @return\ face\ value\ of\ the\ weighted\ dice\ object\r\n
+comment3.params=
+comment3.target=void\ roll()
+comment3.text=\r\n\ no\ parameter\ mutator\ method\ to\ assign\ a\ new\ weighted\ random\ value,\r\n\ generates\ even\ numbers\ twice\ as\ likely\ as\ odd\ numbers\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ overridden\ toString\ method\ to\ convert\ integer\ face\ value\ of\ weighted\ dice\ object\ into\ printable\ text(String)\r\n\ @return\ the\ casted\ String\ value\ of\ faceVal,\ the\ face\ value\ of\ the\ weighted\ dice\ object\r\n
+numComments=5

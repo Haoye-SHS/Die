@@ -29,12 +29,11 @@ public class WeightedDie {
      */
     public void roll() {
         int prim = (int)(Math.random()*6) + 1;
+        int index = (int)(Math.random()*3) + 1;
         if (prim % 2 == 0) {
-            faceVal = prim;
-        } else {
-            if ((int)(Math.random()*2) == 0) {
-                faceVal = prim;
-            } else roll();
+            if (index == 1 || index == 2) faceVal = prim;
+        } else if (prim % 2 != 0) {
+            if (index == 3) faceVal = prim;
         }
     }
 

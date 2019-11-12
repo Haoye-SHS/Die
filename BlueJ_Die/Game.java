@@ -7,8 +7,8 @@
  */
 
 public class Game {
-    Die d = new Die();
-    WeightedDie wd = new WeightedDie();
+    private Die d = new Die();
+    private WeightedDie wd = new WeightedDie();
 
     /**
      * no parameter method to to call to the method that generate a score for two imaginary players and compares their score and states who wins
@@ -39,8 +39,12 @@ public class Game {
         int p2 = rollTwoDice();
 
         if (p1 == p2) {
+            System.out.println("Player 1's score is " + p1);
+            System.out.println("Player 2's score is " + p2);
             System.out.println("It's a tie!");
         } else if (p1 > p2) {
+            System.out.println("Player 1's score is " + p1);
+            System.out.println("Player 2's score is " + p2);
             System.out.println("Player 1 has won!");
         } else {
             playUnfairGame();
@@ -75,7 +79,6 @@ public class Game {
             i++;
         } while(desiredNum != d.getValue());
 
-        System.out.println(i);
         return i;
     }
 
@@ -93,7 +96,6 @@ public class Game {
             i++;
         } while(desiredNum != wd.getValue());
 
-        System.out.println(i);
         return i;
     }
 

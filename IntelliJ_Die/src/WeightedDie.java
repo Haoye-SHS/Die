@@ -32,9 +32,9 @@ public class WeightedDie {
         if (prim % 2 == 0) {
             faceVal = prim;
         } else {
-            if ((int)(Math.random()*2) + 1 == 1) {
+            if ((int)(Math.random()*2) == 0) {
                 faceVal = prim;
-            }
+            } else roll();
         }
     }
 

@@ -5,7 +5,7 @@
  * Allow casting integer face value to String and then returning it
  *
  * @author Haoye
- * @version 1573514106
+ * @version 1573697644 
  */
 
 public class Die {

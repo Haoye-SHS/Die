@@ -3,7 +3,7 @@
  * Counting how many rolls it will take to get a desired number from either a dice roll or a weighted dice roll
  *
  * @author Haoye
- * @version 1573514106
+ * @version 1573697644 
  */
 
 public class Game {
@@ -30,9 +30,9 @@ public class Game {
     }
 
     /**
-     * no parameter method to call to the method that generate a score for two imaginary players and compares their score,
+     * no parameter method to call to the method that generate a score for two imaginary players and then compares their score,
      * however, if the score of player 2 is higher than player 1, the method will rerun until player 1 has a higher score
-     * score of each player is not printed to keep the truth away from player 2
+     * score of each player is not printed until a tie or a scenario where player 1 wins
      */
     public void playUnfairGame() {
         int p1 = rollTwoDice();
@@ -66,7 +66,7 @@ public class Game {
     }
 
     /**
-     * a method taking a parameter then roll and count how many rolls it took to get to the input desired number
+     * a method taking a parameter representing the desired number then roll and count how many rolls it took to get to the desired number
      * @param desiredNum is the desired number from the rolls
      * @return how many rolls it took to get the desired number
      */
@@ -98,30 +98,4 @@ public class Game {
 
         return i;
     }
-
-    /**
-     * no parameter method to check the ratio of even to odd from the weighted dice rolls
-     */
-    /*
-    public void weightTester() {
-        int count=0;
-        int result =0;
-
-        for (int i=0;i<99999999;i++) {
-            wd.roll();
-            result = wd.getValue();
-            if (result % 2 == 0) count++;
-        }
-        System.out.println("out of 99999999 pick, even appear " + count + " times");
-        System.out.println("expected/optimal value is 66666666");
-
-        for (int i=0;i<999;i++) {
-            wd.roll();
-            result = wd.getValue();
-            if (result % 2 == 0) count++;
-        }
-        System.out.println("out of 999 pick, even appear " + count + " times");
-        System.out.println("expected/optimal value is 666");
-    }
-    */
 }

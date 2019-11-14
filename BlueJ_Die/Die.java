@@ -1,8 +1,11 @@
 /**
- * Represents a Dice with random face value
+ * Represents a Dice with a face value
+ * Allow the face value to be randomized(rolled)
+ * Allow returning the current face value of the dice object
+ * Allow casting integer face value to String and then returning it
  *
  * @author Haoye
- * @version 1573514106
+ * @version 1573697644 
  */
 
 public class Die {

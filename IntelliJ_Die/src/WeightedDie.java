@@ -5,7 +5,7 @@
  * Allow casting the integer face value into String and then returning it
  *
  * @author Haoye
- * @version 1573514106
+ * @version 1573697644 
  */
 
 public class WeightedDie {

@@ -3,7 +3,7 @@
  * Counting how many rolls it will take to get a desired number from either a dice roll or a weighted dice roll
  *
  * @author Haoye
- * @version 1573514106
+ * @version 1573697644 
  */
 
 public class Game {
@@ -98,30 +98,4 @@ public class Game {
 
         return i;
     }
-
-    /**
-     * no parameter method to check the ratio of even to odd from the weighted dice rolls
-     */
-    /*
-    public void weightTester() {
-        int count=0;
-        int result =0;
-
-        for (int i=0;i<99999999;i++) {
-            wd.roll();
-            result = wd.getValue();
-            if (result % 2 == 0) count++;
-        }
-        System.out.println("out of 99999999 pick, even appear " + count + " times");
-        System.out.println("expected/optimal value is 66666666");
-
-        for (int i=0;i<999;i++) {
-            wd.roll();
-            result = wd.getValue();
-            if (result % 2 == 0) count++;
-        }
-        System.out.println("out of 999 pick, even appear " + count + " times");
-        System.out.println("expected/optimal value is 666");
-    }
-    */
 }

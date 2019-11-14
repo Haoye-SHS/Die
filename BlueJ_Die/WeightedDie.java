@@ -1,8 +1,11 @@
 /**
- * Represents a weighted dice which possess an even face value twice as likely as possessing an odd face value
+ * Represents a weighted dice and its face value
+ * When this dice is rolled, it is twice as likely to get a even face value than an odd face value
+ * Allow returning the current face value of the weighted dice object
+ * Allow casting the integer face value into String and then returning it
  *
  * @author Haoye
- * @version 1573514106
+ * @version 1573697644 
  */
 
 public class WeightedDie {
